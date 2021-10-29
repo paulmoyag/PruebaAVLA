@@ -1,0 +1,31 @@
+server:
+  port: 8080
+spring:
+  main:
+      allow-bean-definition-overriding: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+  application:
+    admin:
+      enabled: true
+  jpa:
+    database: default
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        ddl-auto: update
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+db:
+  datasource:
+    jdbcUrl: jdbc:mysql://localhost:3306/ventas
+    username: root
+    password: Peru123.
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

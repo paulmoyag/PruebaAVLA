@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="0b331eea-32ac-4e6e-ae87-3ac2c42e8729" name="RegistroVentas" url="jdbc:mysql://localhost/Ventas?useSSL=false&amp;allowMultiQueries=true&amp;serverTimezone=UTC" driverClass="com.mysql.jdbc.Driver" />
+    </data-sources>
+    <data-source-infos>
+      <data-source-info id="0b331eea-32ac-4e6e-ae87-3ac2c42e8729" persistence-unit-name="Default" />
+    </data-source-infos>
+  </component>
+</project>
